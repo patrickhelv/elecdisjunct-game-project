@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.GameCodeSubmitController">
+   <children>
+      <Label alignment="CENTER" layoutX="560.0" layoutY="176.0" prefHeight="90.0" prefWidth="481.0" text="Enter Game Code">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="submitButton" defaultButton="true" layoutX="729.0" layoutY="488.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="75.0" prefWidth="130.0" text="Submit">
+         <font>
+            <Font size="24.0" />
+         </font></JFXButton>
+      <Hyperlink fx:id="MainMenu" styleClass="hyperlink-main" alignment="CENTER" layoutX="725.0" layoutY="799.0" onAction="#handleMainMenu" text="Main Menu" textAlignment="CENTER"/>
+      <JFXTextField fx:id="CodeField" alignment="CENTER" layoutX="693.0" layoutY="347.0" prefHeight="48.0" prefWidth="212.0" promptText="6-digit code">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <Label fx:id="NicknamePlaceholder" alignment="CENTER_RIGHT" layoutX="1234.0" layoutY="761.0" prefHeight="35.0" prefWidth="239.0" text="(INSERT USERNAME)">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="ErrorMsg" layoutX="228.0" layoutY="83.0" prefHeight="17.0" prefWidth="120.0" />
+   </children>
+</AnchorPane>

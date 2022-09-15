@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.UserEditInfoController">
+   <children>
+      <Label fx:id="changeCompleteNick" layoutX="706.0" layoutY="164.0" prefHeight="40.0" prefWidth="240.0" text="New nickname saved!" textFill="green" visible="false" />
+      <Label alignment="CENTER" layoutX="648.0" layoutY="85.0" prefHeight="70.0" prefWidth="260.0" styleClass="medium-heading" text="Edit user info" />
+      <Label alignment="BOTTOM_LEFT" layoutX="704.0" layoutY="221.0" prefHeight="40.0" prefWidth="151.0" styleClass="small-label" text="Change nickname" />
+      <JFXTextField fx:id="newNickname" layoutX="705.0" layoutY="274.0" promptText="New nickname" />
+      <Label fx:id="invalidNickname" alignment="BOTTOM_LEFT" layoutX="704.0" layoutY="330.0" prefHeight="31.0" prefWidth="169.0" styleClass="small-label" text="Invalid nickname" textFill="RED" visible="false" />
+      <Label layoutX="703.0" layoutY="381.0" text="Change password" styleClass="small-label" />
+      <JFXPasswordField fx:id="oldPassword" layoutX="704.0" layoutY="411.0" promptText="Old password" />
+      <Label fx:id="wrongOldPassword" layoutX="705.0" layoutY="465.0" prefHeight="31.0" prefWidth="178.0" text="Incorrect old password" textFill="RED" visible="false" />
+      <JFXPasswordField fx:id="newPassword" layoutX="704.0" layoutY="506.0" promptText="New password" />
+      <JFXPasswordField fx:id="reenterPassword" layoutX="703.0" layoutY="563.0" promptText="Reenter new password" />
+      <Label fx:id="wrongPassword" alignment="CENTER" layoutX="565.0" layoutY="605.0" prefHeight="57.0" prefWidth="427.0" text="New password does not match reenterd password" textAlignment="CENTER" textFill="RED" visible="false" styleClass="small-label"/>
+      <JFXButton alignment="CENTER" layoutX="698.0" layoutY="672.0" mnemonicParsing="false" onAction="#confirmChanges" prefHeight="48.0" prefWidth="169.0" text="Confirm changes" />
+      <Hyperlink fx:id="mainMenu" alignment="CENTER" layoutX="703.0" layoutY="799.0" onAction="#setMainMenu" prefHeight="48.0" prefWidth="169.0" styleClass="hyperlink-main" text="Main Menu" />
+      <Label fx:id="changeCompletePassword" layoutX="705.0" layoutY="341.0" prefHeight="31.0" prefWidth="187.0" text="New password saved!" textFill="green" visible="false" styleClass="small-label"/>
+   </children>
+</AnchorPane>

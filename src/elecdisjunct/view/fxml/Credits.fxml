@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.CreditsController">
+   <children>
+      <Label alignment="CENTER" layoutX="751.0" layoutY="48.0" text="Credits">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Hyperlink alignment="CENTER" layoutX="676.0" layoutY="799.0" onAction="#handleMainMenu" prefHeight="47.0" prefWidth="249.0" styleClass="hyperlink-main" text="Main Menu" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Hyperlink>
+      <TextFlow layoutX="381.0" layoutY="170.0" prefHeight="561.0" prefWidth="839.0">
+         <children>
+            <Label prefHeight="47.0" prefWidth="836.0" styleClass="bold-text" text="Music used: Loopster by Kevin MacLeod, licensed under Creative Commons: By Attribution 3.0 License">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Hyperlink fx:id="link4" onAction="#handleLink4" text="incompetech.com">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Hyperlink fx:id="link3" onAction="#handleLink3" text="http://creativecommons.org/licenses/by/3.0/">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Label prefHeight="47.0" prefWidth="838.0" styleClass="bold-text" text="Volume icon made by Silviu Runceanu from Flaticon lisensed by Creative Commons BY 3.0 ">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Hyperlink fx:id="link1" onAction="#handleLink1" text="https://www.flaticon.com/authors/silviu-runceanu">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Hyperlink fx:id="link2" onAction="#handleLink2" text="https://www.flaticon.com/">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Hyperlink fx:id="link3" onAction="#handleLink3" text="http://creativecommons.org/licenses/by/3.0/">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Label prefHeight="35.0" prefWidth="825.0" styleClass="bold-text" text="Gas icon made by Those Icons from Flaticon lisensed by Creative Commons BY 3.0 ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link7" onAction="#handleLink7" prefHeight="29.0" prefWidth="296.0" text="https://www.flaticon.com/authors/those-icons">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink onAction="#handleLink2" prefHeight="23.0" prefWidth="164.0" text="https://www.flaticon.com/">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink onAction="#handleLink3" text="http://creativecommons.org/licenses/by/3.0/">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Label prefHeight="34.0" prefWidth="790.0" styleClass="bold-text" text="Other icons made by Freepik from Flaticon lisensed by Creative Commons BY 3.0 ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link6" onAction="#handleLink6" prefHeight="31.0" prefWidth="171.0" text="https://www.freepik.com/">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink onAction="#handleLink2" prefHeight="33.0" prefWidth="184.0" text="https://www.flaticon.com/">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink onAction="#handleLink3" prefHeight="33.0" prefWidth="266.0" text="http://creativecommons.org/licenses/by/3.0/">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <Label prefHeight="35.0" prefWidth="836.0" styleClass="bold-text" text="The way we handle scene switching is based on code written by Knute Snortum">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Hyperlink fx:id="link5" onAction="#handleLink5" text="https://github.com/ksnortum/javafx-multi-scene-fxml">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <Label prefHeight="31.0" prefWidth="814.0" styleClass="bold-text" text="Libraries used:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" prefHeight="90.0" prefWidth="823.0" style="-fx-font-size: 16" text="C3P0 for connection pooling, MySQL ConnectorJ as the database driver, JUnit for testing, JavaFX and JFoenix for the GUI" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </TextFlow>
+      <Text fx:id="teamMembers" fill="#D3D0CB" layoutX="72.0" layoutY="-120.0" stroke="#D3D0CB" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by:&#10;T. Bergebakken&#10;V. Blichfeldt&#10;M. Fornes&#10;P. H. Legendre" wrappingWidth="208.4296875">
+      <font>
+         <Font size="24.0" />
+      </font></Text>
+   </children>
+</AnchorPane>

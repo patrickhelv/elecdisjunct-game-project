@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.GameMainMenu">
+   <children>
+      <Label alignment="BASELINE_CENTER" layoutX="394.0" layoutY="77.0" prefHeight="70.0" prefWidth="816.0" text="Electric Disjunction">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="playGame" layoutX="591.0" layoutY="227.0" mnemonicParsing="false" onAction="#handlePlayGame" prefHeight="85.0" prefWidth="421.0" text="Play Game" />
+      <JFXButton fx:id="tutorial" layoutX="590.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleTutorial" prefHeight="65.0" prefWidth="170.0" text="Tutorial" />
+      <JFXButton fx:id="personalStats" layoutX="590.0" layoutY="472.0" mnemonicParsing="false" onAction="#handlePersonalStats" prefHeight="65.0" prefWidth="170.0" text="Statistics" />
+      <JFXButton fx:id="globalStats" layoutX="840.0" layoutY="472.0" mnemonicParsing="false" onAction="#handleGlobalStats" prefHeight="65.0" prefWidth="170.0" text="Leaderboard" />
+      <JFXButton fx:id="credits" layoutX="840.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleCredits" prefHeight="65.0" prefWidth="170.0" text="Credits" />
+      <JFXButton fx:id="logOut" layoutX="715.0" layoutY="753.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="60.0" prefWidth="170.0" text="Log Out" />
+      <JFXButton fx:id="edit" layoutX="715.0" layoutY="600.0" mnemonicParsing="false" onAction="#editinfo" prefHeight="65.0" prefWidth="170.0" text="Edit User Info" />
+      <Label fx:id="userlog" alignment="CENTER_RIGHT" layoutX="1136.0" layoutY="785.0" prefHeight="50.0" prefWidth="398.0" styleClass="normal-label" />
+      <AnchorPane fx:id="soundSet" layoutX="1062.0" layoutY="77.0" prefHeight="70.0" prefWidth="339.0" translateX="440.0">
+         <children>
+            <JFXSlider fx:id="volume" blockIncrement="1.0" layoutX="114.0" layoutY="15.0" onMouseDragged="#volumeSetting" prefHeight="40.0" prefWidth="205.0" value="100.0">
+               <effect>
+                  <Glow level="0.5" />
+               </effect>
+            </JFXSlider>
+            <Rectangle fx:id="soundButton" arcHeight="5.0" arcWidth="5.0" fill="#afd3f5" height="65.0" layoutX="3.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
+         </children>
+      </AnchorPane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.GlobalStatisticsController">
+   <children>
+      <Label alignment="CENTER" layoutX="616.0" layoutY="77.0" prefHeight="79.0" prefWidth="369.0" text="Leaderboard" textAlignment="CENTER">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="mainMenu" styleClass="hyperlink-main" layoutX="755.0" layoutY="799.0" onAction="#handleMainMenu" text="Main Menu"/>
+      <TableView fx:id="table" layoutX="503.0" layoutY="215.0" prefHeight="527.0" prefWidth="595.0">
+        <columns>
+          <TableColumn fx:id="rankColumn" editable="false" prefWidth="49.0" resizable="false" text="Rank" />
+          <TableColumn fx:id="nicknameColumn" editable="false" minWidth="0.0" prefWidth="204.0" resizable="false" text="Nickname" />
+            <TableColumn fx:id="scoreColumn" editable="false" prefWidth="113.0" resizable="false" text="Score" />
+            <TableColumn fx:id="nodesColumn" editable="false" prefWidth="113.0" resizable="false" text="Nodes" />
+            <TableColumn fx:id="linesColumn" editable="false" prefWidth="115.0" resizable="false" text="Lines" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

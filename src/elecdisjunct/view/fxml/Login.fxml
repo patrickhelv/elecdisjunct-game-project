@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.LoginController">
+   <children>
+      <Label styleClass="big-heading" alignment="CENTER" layoutX="721.0" layoutY="110.0" prefHeight="57.0" prefWidth="159.0" text="Log in">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="email" layoutX="714.0" layoutY="279.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="170.0" promptText="Enter email">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <JFXPasswordField fx:id="password" layoutX="714.0" layoutY="367.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="170.0" promptText="Enter password">
+         <font>
+            <Font size="18.0" />
+         </font></JFXPasswordField>
+      <JFXButton fx:id="loginButton" defaultButton="true" layoutX="711.0" layoutY="493.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="70.0" prefWidth="175.0" text="Log in">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <Hyperlink fx:id="backPage" alignment="CENTER" layoutX="744.0" layoutY="669.0" onAction="#handleGoBack" prefHeight="35.0" prefWidth="106.0" text="Go Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="575.0" layoutY="172.0" prefHeight="70.0" prefWidth="451.0" text="Error: You have entered incorrect email or password" textFill="RED" visible="false" styleClass="small-label"/>
+   </children>
+</AnchorPane>

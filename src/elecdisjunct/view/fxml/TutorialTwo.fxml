@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.TutorialTwoController">
+   <children>
+      <Hyperlink alignment="CENTER" layoutX="732.0" layoutY="799.0" onAction="#handleMainMenu" styleClass="hyperlink-main" text="Main Menu" />
+      <Label alignment="CENTER" layoutX="751.0" layoutY="48.0" text="Tutorial">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="575.0" layoutY="139.0" prefHeight="26.0" prefWidth="486.0" text="Map Symbols and Power Plants">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Circle fx:id="city" fill="WHITE" layoutX="870.0" layoutY="657.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="coal" fill="WHITE" layoutX="869.0" layoutY="377.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="gas" fill="WHITE" layoutX="870.0" layoutY="488.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="hydro" fill="WHITE" layoutX="244.0" layoutY="482.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="nuclear" fill="WHITE" layoutX="244.0" layoutY="656.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="solar" fill="WHITE" layoutX="244.0" layoutY="253.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fx:id="wind" fill="WHITE" layoutX="244.0" layoutY="367.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Label fx:id="cityText" layoutX="951.0" layoutY="588.0" prefHeight="137.0" prefWidth="401.0" style="-fx-font-size: 18" text="City: Info... " wrapText="true" />
+      <Label fx:id="coalText" layoutX="951.0" layoutY="368.0" prefHeight="27.0" prefWidth="182.0" style="-fx-font-size: 18" text="Coal: Info..." />
+      <Label fx:id="gasText" layoutX="951.0" layoutY="478.0" prefHeight="27.0" prefWidth="182.0" style="-fx-font-size: 18" text="Gas: Info" />
+      <Label fx:id="hydroText" layoutX="326.0" layoutY="472.0" style="-fx-font-size: 18" text="Hydroelectric: Info" />
+      <Label fx:id="nuclearText" layoutX="326.0" layoutY="602.0" prefHeight="111.0" prefWidth="430.0" style="-fx-font-size: 18" text="Nuclear: Info" wrapText="true" />
+      <Label fx:id="solarText" layoutX="325.0" layoutY="227.0" prefHeight="53.0" prefWidth="125.0" style="-fx-font-size: 18" text="Solar: info" wrapText="true" />
+      <Label fx:id="windText" layoutX="326.0" layoutY="357.0" style="-fx-font-size: 18" text="Wind: info" />
+      <Button layoutX="1370.0" layoutY="737.0" mnemonicParsing="false" onAction="#handleNext" prefHeight="45.0" prefWidth="85.0" text="Next" />
+      <Button layoutX="145.0" layoutY="737.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="45.0" prefWidth="85.0" text="Back" />
+      <Label fx:id="renewable" layoutX="512.0" layoutY="271.0" prefHeight="184.0" prefWidth="261.0" style="-fx-font-size: 18" text="Renewable:" wrapText="true" />
+      <Label fx:id="nonrenewable" layoutX="1152.0" layoutY="342.0" prefHeight="173.0" prefWidth="318.0" style="-fx-font-size: 18" text="Non-renewable" wrapText="true" />
+      <Label fx:id="info" alignment="TOP_LEFT" layoutX="951.0" layoutY="218.0" prefHeight="85.0" prefWidth="430.0" style="-fx-font-size: 18" text="Info" wrapText="true" />
+   </children>
+</AnchorPane>

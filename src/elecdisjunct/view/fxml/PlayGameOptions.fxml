@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.PlayGameOptionsController">
+   <children>
+      <JFXButton fx:id="createGameButton" layoutX="412.0" layoutY="394.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#createGame" prefHeight="130.0" prefWidth="230.0" text="Create Game">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="joinGameButton" layoutX="958.0" layoutY="395.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#joinGame" prefHeight="130.0" prefWidth="230.0" text="Join Game">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="328.0" layoutY="296.0" prefHeight="94.0" prefWidth="389.0" text="Create your own game by setting up a game code for your friends to join" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="831.0" layoutY="294.0" prefHeight="94.0" prefWidth="495.0" text="If you already have a game code, press join game to enter your code and let the fun begin" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="goBack" styleClass="hyperlink-main" layoutX="730.0" layoutY="799.0" onAction="#handlegoBack" text="Main Menu"/>
+   </children>
+</AnchorPane>

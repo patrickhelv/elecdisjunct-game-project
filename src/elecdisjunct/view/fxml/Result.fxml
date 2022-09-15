@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.ResultController">
+   <children>
+      <Label alignment="BASELINE_CENTER" layoutX="496.0" layoutY="130.0" prefHeight="49.0" prefWidth="610.0" text="Game Over">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Hyperlink alignment="BASELINE_CENTER" layoutX="701.0" layoutY="799.0" onAction="#handleMainMenu" prefHeight="28.0" prefWidth="200.0" styleClass="hyperlink-main" text="Main Menu" />
+      <TableView fx:id="tableView" layoutX="598.0" layoutY="252.0" prefHeight="218.0" prefWidth="405.0">
+        <columns>
+          <TableColumn fx:id="playerColumn" minWidth="102.0" prefWidth="112.0" text="Player" />
+          <TableColumn fx:id="scoreColumn" prefWidth="92.0" text="Score" />
+            <TableColumn fx:id="nodeColumn" prefWidth="102.0" text="Nodes" />
+            <TableColumn fx:id="lineColumn" prefWidth="104.0" text="Lines" />
+        </columns>
+      </TableView>
+   </children>
+  </AnchorPane>

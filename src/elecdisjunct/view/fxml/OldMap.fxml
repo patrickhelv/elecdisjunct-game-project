@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.GameController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0">
+            <children>
+                <Pane layoutX="15.0" layoutY="21.0" prefHeight="858.0" prefWidth="1069.0">
+                    <children>
+                        <Circle fill="WHITE" layoutX="102.0" layoutY="800.0" radius="28.0" stroke="#f5d832" strokeType="INSIDE" strokeWidth="3.0" />
+                        <Circle fill="WHITE" layoutX="102.0" layoutY="53.0" radius="28.0" stroke="#0676ff" strokeType="INSIDE" strokeWidth="3.0" />
+                        <Circle fill="WHITE" layoutX="985.0" layoutY="795.0" radius="28.0" stroke="RED" strokeType="INSIDE" strokeWidth="3.0" />
+                        <Circle fill="WHITE" layoutX="985.0" layoutY="53.0" radius="28.0" stroke="#4dff00" strokeType="INSIDE" strokeWidth="3.0" />
+                        <Circle fill="WHITE" layoutX="465.0" layoutY="355.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" />
+                        <Circle fill="WHITE" layoutX="627.0" layoutY="355.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" />
+                        <Circle fill="WHITE" layoutX="465.0" layoutY="494.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" />
+                        <Circle fill="WHITE" layoutX="627.0" layoutY="494.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" />
+                        <Circle fill="WHITE" layoutX="961.0" layoutY="189.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="860.0" layoutY="95.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="791.0" layoutY="204.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="617.0" layoutY="71.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="606.0" layoutY="237.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="275.0" layoutY="81.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="215.0" layoutY="309.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="125.0" layoutY="180.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="332.0" layoutY="204.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="150.0" layoutY="651.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="92.0" layoutY="460.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="263.0" layoutY="528.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="239.0" layoutY="807.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="329.0" layoutY="699.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="475.0" layoutY="651.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="984.0" layoutY="652.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="790.0" layoutY="495.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="774.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="944.0" layoutY="345.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="641.0" layoutY="667.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="479.0" layoutY="768.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="783.0" layoutY="720.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="748.0" layoutY="596.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="332.0" layoutY="386.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="442.0" layoutY="119.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="478.0" layoutY="219.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Line endX="165.0" endY="163.0" layoutX="-53.0" layoutY="309.0" startX="294.0" startY="209.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="165.0" endY="162.0" layoutY="473.0" startX="246.0" startY="71.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="277.0" endY="45.0" layoutX="10.0" layoutY="483.0" startX="421.0" startY="17.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="333.0" layoutY="330.0" startX="417.0" startY="26.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="172.0" layoutY="328.0" startX="421.0" startY="25.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="172.0" layoutY="469.0" startX="421.0" startY="25.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="327.0" endY="24.0" layoutX="138.0" layoutY="365.0" startX="327.0" startY="95.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="327.0" endY="24.0" layoutX="300.0" layoutY="365.0" startX="327.0" startY="95.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="295.0" endY="40.0" layoutX="332.0" layoutY="488.0" startX="301.0" startY="161.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="342.0" endY="-4.0" layoutX="316.0" layoutY="657.0" startX="408.0" startY="-61.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="320.0" endY="27.0" layoutX="-34.0" layoutY="512.0" startX="485.0" startY="130.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="327.0" endY="31.0" layoutX="-56.0" layoutY="521.0" startX="374.0" startY="154.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="-159.0" layoutY="642.0" startX="464.0" startY="57.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="26.0" layoutY="677.0" startX="432.0" startY="-11.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="337.0" endY="24.0" layoutX="-177.0" layoutY="650.0" startX="404.0" startY="134.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="320.0" endY="27.0" layoutX="-209.0" layoutY="747.0" startX="349.0" startY="-76.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="331.0" endY="19.0" layoutX="-205.0" layoutY="782.0" startX="421.0" startY="25.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="277.0" endY="45.0" layoutX="-13.0" layoutY="763.0" startX="471.0" startY="18.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="337.0" endY="24.0" layoutX="9.0" layoutY="691.0" startX="444.0" startY="69.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="-76.0" layoutY="763.0" startX="394.0" startY="-40.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="338.0" endY="25.0" layoutX="18.0" layoutY="355.0" startX="413.0" startY="6.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="200.0" endY="555.0" layoutX="122.0" layoutY="-145.0" startX="151.0" startY="649.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="165.0" endY="162.0" layoutX="-56.0" layoutY="282.0" startX="256.0" startY="45.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="320.0" endY="27.0" layoutX="-85.0" layoutY="294.0" startX="399.0" startY="79.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="356.0" endY="150.0" layoutX="-156.0" layoutY="141.0" startX="294.0" startY="61.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="140.0" endY="511.0" layoutX="192.0" layoutY="-283.0" startX="140.0" startY="645.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="327.0" endY="31.0" layoutX="-197.0" layoutY="27.0" startX="448.0" startY="47.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="327.0" endY="31.0" layoutX="-224.0" layoutY="51.0" startX="342.0" startY="105.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="165.0" endY="162.0" layoutX="-21.0" layoutY="1.0" startX="279.0" startY="94.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="320.0" endY="27.0" layoutX="-37.0" layoutY="75.0" startX="356.0" startY="111.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="315.0" endY="31.0" layoutX="41.0" layoutY="173.0" startX="413.0" startY="46.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="320.0" endY="27.0" layoutX="-93.0" layoutY="260.0" startX="407.0" startY="-40.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="153.0" endY="160.0" layoutX="312.0" layoutY="161.0" startX="165.0" startY="82.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="362.0" endY="64.0" layoutX="268.0" layoutY="166.0" startX="499.0" startY="38.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="454.0" endY="38.0" layoutX="320.0" layoutY="294.0" startX="471.0" startY="-66.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="424.0" endY="33.0" layoutX="51.0" layoutY="594.0" startX="414.0" startY="-66.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="315.0" endY="31.0" layoutX="-16.0" layoutY="50.0" startX="435.0" startY="57.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="319.0" endY="25.0" layoutX="147.0" layoutY="87.0" startX="446.0" startY="-16.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="315.0" endY="31.0" layoutX="321.0" layoutY="56.0" startX="461.0" startY="124.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="360.0" endY="72.0" layoutX="246.0" layoutY="141.0" startX="362.0" startY="-46.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="471.0" layoutY="330.0" startX="449.0" startY="15.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="328.0" endY="25.0" layoutX="487.0" layoutY="178.0" startX="450.0" startY="11.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="307.0" endY="26.0" layoutX="544.0" layoutY="93.0" startX="260.0" startY="93.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="332.0" endY="30.0" layoutX="552.0" layoutY="53.0" startX="405.0" startY="5.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="312.0" endY="26.0" layoutX="673.0" layoutY="55.0" startX="295.0" startY="110.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="165.0" endY="177.0" layoutX="496.0" layoutY="317.0" startX="264.58575439453125" startY="178.58575439453125" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="157.0" endY="155.0" layoutX="787.0" layoutY="166.0" startX="170.0" startY="48.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="180.0" endY="144.0" layoutX="610.0" layoutY="327.0" startX="164.0" startY="53.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="479.0" endY="-1.0" layoutX="142.0" layoutY="322.0" startX="471.0" startY="-61.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="554.0" endY="-60.0" layoutX="27.0" layoutY="296.0" startX="471.0" startY="-66.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="489.0" layoutX="-11.0" layoutY="195.0" startX="464.0" startY="-52.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="338.0" endY="46.0" layoutX="466.0" layoutY="433.0" startX="471.0" startY="-66.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="512.0" endY="14.0" layoutX="465.0" layoutY="753.0" startX="519.0" startY="-77.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="623.0" endY="-39.0" layoutX="334.0" layoutY="827.0" startX="464.66668701171875" startY="-92.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="428.0" layoutX="66.0" layoutY="750.0" startX="564.0" startY="-59.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="498.66668701171875" endY="26.0" layoutX="276.0" layoutY="670.0" startX="482.66668701171875" startY="-50.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="219.0" endY="215.0" layoutX="765.0" layoutY="413.0" startX="224.0" startY="70.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="294.0" endY="55.0" layoutX="323.0" layoutY="602.0" startX="176.0" startY="49.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="196.0" layoutX="594.0" layoutY="519.0" startX="166.0" startY="53.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="641.0" endY="-141.33331298828125" layoutX="327.0" layoutY="807.0" startX="480.0" startY="-101.33331298828125" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="294.0" endY="-35.0" layoutX="209.0" layoutY="803.0" startX="550.0" startY="-74.66668701171875" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="366.0" endY="-90.0" layoutX="448.0" layoutY="585.0" startX="517.0" startY="-126.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="989.0" layoutY="459.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Line endX="200.66668701171875" endY="-9.0" layoutX="774.0" layoutY="484.0" startX="128.66668701171875" startY="76.33331298828125" stroke="#0000002c" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="887.0" layoutY="574.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Line endX="309.0" endY="11.0" layoutX="566.0" layoutY="101.0" startX="379.33331298828125" startY="72.66667175292969" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="580.0" endY="-116.0" layoutX="284.0" layoutY="691.0" startX="488.0" startY="-95.0" stroke="#0000002c" strokeWidth="2.0" />
+                        <Line endX="520.0" endY="-47.66668701171875" layoutX="442.0" layoutY="687.0" startX="460.0" startY="-95.66668701171875" stroke="#0000002c" strokeWidth="2.0" />
+                        <Label layoutX="129.0" layoutY="642.0" text="10Wind" />
+                        <Label layoutX="315.0" layoutY="691.0" text="9Solar" />
+                        <Label layoutX="220.0" layoutY="799.0" text="1Water" />
+                        <Label layoutX="70.0" layoutY="452.0" text="11Water" />
+                        <Label layoutX="245.0" layoutY="519.0" text="12Gas" />
+                        <Label layoutX="313.0" layoutY="378.0" text="17Coal" />
+                        <Label layoutX="195.0" layoutY="301.0" text="18Solar" />
+                        <Label layoutX="112.0" layoutY="172.0" text="28Gas" />
+                        <Label layoutX="256.0" layoutY="73.0" text="27Wind" />
+                        <Label layoutX="423.0" layoutY="111.0" text="26Coal" />
+                        <Label layoutX="312.0" layoutY="196.0" text="19Fusion" />
+                        <Label layoutX="457.0" layoutY="212.0" text="20Water" />
+                        <Label layoutX="586.0" layoutY="229.0" text="21Water" />
+                        <Label layoutX="603.0" layoutY="65.0" text="25Gas" />
+                        <Label layoutX="840.0" layoutY="87.0" text="24Solar" />
+                        <Label layoutX="766.0" layoutY="196.0" text="22Fission" />
+                        <Label layoutX="947.0" layoutY="180.0" text="23Gas" />
+                        <Label layoutX="751.0" layoutY="349.0" text="16Wind" />
+                        <Label layoutX="920.0" layoutY="337.0" text="15Water" />
+                        <Label layoutX="768.0" layoutY="486.0" text="13Wind" />
+                        <Label layoutX="970.0" layoutY="451.0" text="14Fusion" />
+                        <Label layoutX="736.0" layoutY="588.0" text="6Coal" />
+                        <Label layoutX="627.0" layoutY="660.0" text="7Wind" />
+                        <Label layoutX="461.0" layoutY="643.0" text="8Coal" />
+                        <Label layoutX="459.0" layoutY="759.0" text="2Fission" />
+                        <Label layoutX="768.0" layoutY="712.0" text="3Wind" />
+                        <Label layoutX="970.0" layoutY="642.0" text="4Gas" />
+                        <Label layoutX="873.0" layoutY="566.0" text="5Solar" />
+                  <Label layoutX="600.0" layoutY="472.0" prefHeight="46.0" prefWidth="65.0" text="POWER PLANT">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="598.0" layoutY="333.0" prefHeight="46.0" prefWidth="65.0" text="POWER PLANT">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="437.0" layoutY="331.0" prefHeight="46.0" prefWidth="65.0" text="POWER PLANT">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="435.0" layoutY="472.0" prefHeight="46.0" prefWidth="65.0" text="POWER PLANT">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+                  <Line endX="370.0" endY="-9.0" layoutX="-62.0" layoutY="402.0" startX="176.0" startY="49.0" stroke="#0000002c" strokeWidth="2.0" />
+                  <Line endX="319.0" endY="25.0" layoutX="322.0" layoutY="42.0" startX="514.0" startY="53.0" stroke="#0000002c" strokeWidth="2.0" />
+                  <Line endX="246.0" endY="149.0" layoutX="743.0" layoutY="286.0" startX="212.0" startY="76.0" stroke="#0000002c" strokeWidth="2.0" />
+                  <Line endX="327.0" endY="31.0" layoutX="-229.0" layoutY="450.0" startX="370.0" startY="177.0" stroke="#0000002c" strokeWidth="2.0" />
+                    </children>
+                </Pane>
+            <Label layoutX="1093.0" layoutY="42.0" text="Heading">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button layoutX="1246.0" layoutY="382.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="80.0" text="Upgrade" />
+                <Button layoutX="1246.0" layoutY="382.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="80.0" text="Claim" />
+            <Button layoutX="1363.0" layoutY="382.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="80.0" text="End turn" />
+            <TableView layoutX="1093.0" layoutY="506.0" prefHeight="338.0" prefWidth="493.0">
+              <columns>
+                <TableColumn prefWidth="247.0" text="Players" />
+                <TableColumn prefWidth="245.0" text="Statistics?" />
+              </columns>
+            </TableView>
+            <Label alignment="TOP_LEFT" layoutX="1093.0" layoutY="99.0" prefHeight="187.0" prefWidth="493.0" text="Information">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="1093.0" layoutY="315.0" prefHeight="41.0" prefWidth="493.0" text="More information">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

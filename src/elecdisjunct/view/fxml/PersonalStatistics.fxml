@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" stylesheets="/elecdisjunct/view/fxml/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elecdisjunct.view.controller.PersonalStatisticsController">
+   <children>
+      <Label alignment="BOTTOM_LEFT" layoutX="596.0" layoutY="335.0" prefHeight="50.0" prefWidth="166.0" text="High Score" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="596.0" layoutY="414.0" prefHeight="58.0" prefWidth="199.0" text="Games Played" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="596.0" layoutY="503.0" prefHeight="58.0" prefWidth="185.0" text="Games Won" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="highScore" layoutX="930.0" layoutY="342.0" prefHeight="43.0" prefWidth="209.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="gamesPlayed" layoutX="930.0" layoutY="429.0" prefHeight="43.0" prefWidth="199.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="gamesWon" layoutX="930.0" layoutY="518.0" prefHeight="43.0" prefWidth="199.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="mainMenu" layoutX="755.0" layoutY="799.0" onAction="#handleMainMenu" styleClass="hyperlink-main" text="Main Menu" textAlignment="CENTER" />
+      <TextFlow layoutX="8.0" layoutY="125.0" prefHeight="156.0" prefWidth="1585.0" textAlignment="CENTER">
+         <children>
+            <Label text="Personal Statistics for " textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel" text="Name">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </TextFlow>
+   </children>
+</AnchorPane>
