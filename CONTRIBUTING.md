@@ -81,7 +81,6 @@ Based on the sample repo Nils made
         * **util** contains various utility classes that don't fit in elsewhere
         
     * **repo** contains classes for filling the objects from above with data and handling other database things
-        * ~~do we need subdirectories here at all? idk~~
         * **sql** the lonely subdirectory where we stash all our SQL scripts
     
     * **view** contains the GUI (and other client-specific classes, I'd guess) --> actually MainApp in root dir
